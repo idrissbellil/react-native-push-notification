@@ -3,9 +3,10 @@ package com.dieam.reactnativepushnotification.modules;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
-import android.support.v4.content.res.ResourcesCompat;
 import android.os.Bundle;
 import android.util.Log;
+
+import androidx.core.content.res.ResourcesCompat;
 
 class RNPushNotificationConfig {
     private static final String KEY_CHANNEL_NAME = "com.dieam.reactnativepushnotification.notification_channel_name";
